@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    background-color: #0E0E17;
+    color: #ffffff;
+}
+
+h1, h2 {
+    color: #E53170;
+}
+
+
+h1 {
+    margin: 40px 0px;
+}
+
+
+h3, h4, h5, h6 {
+    color: #FA8907;
+    margin-bottom: 2rem;
+}
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+.container {
+    max-width: 1170px;  
+    margin: auto;
+}
+
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.col {
+    float: left;
+    width: calc(100% / 3);
+    text-align: center;
+    padding: 20px;
+}
+
+.col img {
+    height: 150px;
+}
